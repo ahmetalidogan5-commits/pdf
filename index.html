@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Pratik Seyahat İngilizcesi Rehberi - Modern Mavi Tema</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            background-color: #f8fafc; 
+            color: #1e293b; 
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        .page-break { page-break-before: always; }
+        .table-header { background-color: #1e3a8a; color: white; }
+        .table-row:nth-child(even) { background-color: #f0f9ff; }
+        .table-row:hover { background-color: #e0f2fe; }
+        .tip-box { background-color: #e0f2fe; border-left: 5px solid #0284c7; }
+        .alert-box { background-color: #fef2f2; border-left: 5px solid #ef4444; }
+        .card { background: white; border-radius: 1.5rem; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05), 0 4px 6px -2px rgba(0,0,0,0.025); border: 1px solid #e2e8f0; }
+        .practice-card { border: 2px solid #3b82f6; border-radius: 1rem; padding: 1rem; background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.05); page-break-inside: avoid; }
+        .practice-card-back { background: #eff6ff; border-top: 2px dashed #93c5fd; margin-top: 0.75rem; padding-top: 0.75rem; font-size: 0.9rem; }
+        .checkbox-item { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 1rem; }
+        .checkbox-box { width: 1.5rem; height: 1.5rem; border: 2px solid #3b82f6; border-radius: 0.375rem; background: white; flex-shrink: 0; }
+        .fill-blank { border-bottom: 2px dotted #3b82f6; display: inline-block; min-width: 200px; margin-left: 0.5rem; }
+    </style>
+</head>
+<body class="p-6 md:p-12 max-w-5xl mx-auto">
+
+    <!-- KAPAK -->
+    <div class="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-br from-blue-900 via-blue-700 to-sky-500 text-white rounded-3xl shadow-2xl mb-8 p-12 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full opacity-10" style="background-image: radial-gradient(circle at 20% 50%, white 1px, transparent 1px), radial-gradient(circle at 80% 20%, white 1px, transparent 1px); background-size: 40px 40px;"></div>
+        <div class="text-8xl mb-6 drop-shadow-lg">✈️🌍</div>
+        <h1 class="text-6xl font-extrabold mb-4 tracking-tight drop-shadow-md">Pratik Seyahat<br>İngilizcesi Rehberi</h1>
+        <p class="text-2xl text-blue-100 font-light mb-8 italic">Good Trips, Better Stories</p>
+        <div class="px-8 py-3 bg-white text-blue-900 rounded-full font-bold shadow-lg tracking-wide uppercase text-sm">PASSPORT</div>
+    </div>
+
+    <!-- İÇİNDEKİLER -->
+    <div class="page-break"></div>
+    <h2 class="text-4xl font-extrabold text-blue-900 mb-8 border-b-4 border-sky-300 pb-3 inline-block">📑 İçindekiler</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">1</span><span class="font-semibold text-slate-700 text-lg">Giriş</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">2</span><span class="font-semibold text-slate-700 text-lg">Havalimanı ve Uçuş</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">3</span><span class="font-semibold text-slate-700 text-lg">Koltuk Numaraları</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">4</span><span class="font-semibold text-slate-700 text-lg">Bagaj Alımı ve Gümrük</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">5</span><span class="font-semibold text-slate-700 text-lg">Ulaşım ve Toplu Taşıma</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">6</span><span class="font-semibold text-slate-700 text-lg">Ulaşımda Ek Kalıplar</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">7</span><span class="font-semibold text-slate-700 text-lg">Otel ve Konaklama</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">8</span><span class="font-semibold text-slate-700 text-lg">Konaklamada Ek Kalıplar</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">9</span><span class="font-semibold text-slate-700 text-lg">Restoran ve Kafe</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">10</span><span class="font-semibold text-slate-700 text-lg">Restoranda Ek Kalıplar</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">11</span><span class="font-semibold text-slate-700 text-lg">Pratik Zamanı (cevap anahtarı dahil)</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">12</span><span class="font-semibold text-slate-700 text-lg">Yol ve Yön Bulma</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">13</span><span class="font-semibold text-slate-700 text-lg">Yön Tariflerinde Ek Kalıplar</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-red-100 text-red-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">14</span><span class="font-semibold text-slate-700 text-lg">Acil Durumlar ve Sağlık</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-red-100 text-red-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">15</span><span class="font-semibold text-slate-700 text-lg">Acil Durumlarda Ek Kalıplar</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">16</span><span class="font-semibold text-slate-700 text-lg">Alışveriş ve Fiyat Sorma</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">17</span><span class="font-semibold text-slate-700 text-lg">Aktif Pratik ve Hatırlama Egzersizi</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">18</span><span class="font-semibold text-slate-700 text-lg">Yeni Senaryolar ve İpucu Sayfaları</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">19</span><span class="font-semibold text-slate-700 text-lg">Hızlı Başvuru</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">20</span><span class="font-semibold text-slate-700 text-lg">Pratik Kartları Oyunu</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">21</span><span class="font-semibold text-slate-700 text-lg">Pratik Kartları</span></div>
+        <div class="card p-4 flex items-center gap-4 hover:shadow-lg transition"><span class="bg-blue-100 text-blue-800 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">22</span><span class="font-semibold text-slate-700 text-lg">Seyahat Öncesi Mini Kontrol Listesi</span></div>
+    </div>
+
+    <!-- 1. GİRİŞ -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">👋</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">1. Giriş</h2>
+    </div>
+    <div class="card p-8 mb-8 text-lg text-slate-600 leading-relaxed">
+        <p class="mb-4">Bu rehber; yurt dışı seyahatlerinde havalimanından otele, restorandan acil durumlara kadar en sık karşılaşacağınız İngilizce kelimeleri ve cümle kalıplarını pratik biçimde kullanmanıza yardımcı olur.</p>
+        <p class="mb-4">Her örnek üç bölüm halinde verilmiştir: <span class="font-bold text-blue-700">İngilizce cümle</span>, <span class="font-bold text-slate-800">Türkçe anlam</span> ve <span class="font-bold text-sky-600 italic">Türkçe harflerle yaklaşık okunuş</span>. Okunuşlar, konuşmayı kolaylaştırmak için hazırlanmıştır; bölgesel aksanlara göre küçük farklılıklar olabilir.</p>
+    </div>
+    <div class="tip-box p-6 rounded-r-2xl mb-8 flex gap-4 shadow-sm">
+        <span class="text-3xl">💡</span>
+        <div>
+            <h4 class="font-bold text-sky-900 text-xl mb-2">Çalışma İpucu</h4>
+            <p class="text-sky-800">Önce İngilizce cümleyi sesli okuyun, ardından Türkçe anlamını kontrol edin. Son olarak cümleyi kendi seyahat planınıza göre değiştirerek tekrar edin.</p>
+        </div>
+    </div>
+
+    <!-- 2. HAVALİMANI VE UÇUŞ -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🛂</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">2. Havalimanı ve Uçuş</h2>
+    </div>
+    <p class="text-slate-600 mb-8 text-lg">Havalimanında bilet, check-in, güvenlik kontrolü ve uçuş kapısı hakkında soru sormak için aşağıdaki kalıpları kullanabilirsiniz.</p>
+    <div class="card overflow-hidden mb-8">
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">English</th><th class="p-4 font-bold">Türkçe Anlam</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Where is the check-in counter?</td><td class="p-4 text-slate-700">Check-in bankosu nerede?</td><td class="p-4 text-slate-500 italic">Wer iz di ek-in kaunter?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">I'd like to check in for my flight.</td><td class="p-4 text-slate-700">Uçuşum için check-in yapmak istiyorum.</td><td class="p-4 text-slate-500 italic">Ayd layk tu ek in for may flayt.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Can I see your passport, please?</td><td class="p-4 text-slate-700">Pasaportunuzu görebilir miyim, lütfen?</td><td class="p-4 text-slate-500 italic">Ken ay sii yor pasport, pliiz?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Here is my passport.</td><td class="p-4 text-slate-700">Pasaportum burada.</td><td class="p-4 text-slate-500 italic">Hiyir iz may pasport.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Do I need to pay for extra baggage?</td><td class="p-4 text-slate-700">Fazla bagaj için ödeme yapmam gerekiyor mu?</td><td class="p-4 text-slate-500 italic">Du ay niid tu pey for ekstra begic?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">What is my gate number?</td><td class="p-4 text-slate-700">Kapı numaram nedir?</td><td class="p-4 text-slate-500 italic">Vat iz may geyt nambir?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Has the flight been delayed?</td><td class="p-4 text-slate-700">Uçuş ertelendi mi?</td><td class="p-4 text-slate-500 italic">Hez di flayt biin dileyd?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">When does boarding begin?</td><td class="p-4 text-slate-700">Biniş ne zaman başlıyor?</td><td class="p-4 text-slate-500 italic">Ven daz boarding begin?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Is this the flight to London?</td><td class="p-4 text-slate-700">Bu Londra uçuşu mu?</td><td class="p-4 text-slate-500 italic">Iz dis di flayt tu Landin?</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 3. KOLTUK NUMARALARI -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">💺</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">3. Koltuk Numaraları</h2>
+    </div>
+    <p class="text-slate-600 mb-8 text-lg">Uçakta koltuk numarasını söylerken İngilizce sayıların okunuşlarından yararlanabilirsiniz.</p>
+    <div class="card overflow-hidden mb-8">
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">Sayı</th><th class="p-4 font-bold">English</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 font-semibold">1</td><td class="p-4 text-slate-700">one</td><td class="p-4 text-slate-500 italic">van</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">2</td><td class="p-4 text-slate-700">two</td><td class="p-4 text-slate-500 italic">tu</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">3</td><td class="p-4 text-slate-700">three</td><td class="p-4 text-slate-500 italic">thrii</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">4</td><td class="p-4 text-slate-700">four</td><td class="p-4 text-slate-500 italic">for</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">5</td><td class="p-4 text-slate-700">five</td><td class="p-4 text-slate-500 italic">fayv</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">6</td><td class="p-4 text-slate-700">six</td><td class="p-4 text-slate-500 italic">siks</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">7</td><td class="p-4 text-slate-700">seven</td><td class="p-4 text-slate-500 italic">sevin</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">8</td><td class="p-4 text-slate-700">eight</td><td class="p-4 text-slate-500 italic">eyt</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">9</td><td class="p-4 text-slate-700">nine</td><td class="p-4 text-slate-500 italic">nayn</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">10</td><td class="p-4 text-slate-700">ten</td><td class="p-4 text-slate-500 italic">ten</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">11</td><td class="p-4 text-slate-700">eleven</td><td class="p-4 text-slate-500 italic">ilevin</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">12</td><td class="p-4 text-slate-700">twelve</td><td class="p-4 text-slate-500 italic">tvelv</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">13</td><td class="p-4 text-slate-700">thirteen</td><td class="p-4 text-slate-500 italic">tortiin</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">14</td><td class="p-4 text-slate-700">fourteen</td><td class="p-4 text-slate-500 italic">fortiin</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">15</td><td class="p-4 text-slate-700">fifteen</td><td class="p-4 text-slate-500 italic">fiftiin</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">16</td><td class="p-4 text-slate-700">sixteen</td><td class="p-4 text-slate-500 italic">sikstiin</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">17</td><td class="p-4 text-slate-700">seventeen</td><td class="p-4 text-slate-500 italic">sevintiin</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">18</td><td class="p-4 text-slate-700">eighteen</td><td class="p-4 text-slate-500 italic">eytiin</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">19</td><td class="p-4 text-slate-700">nineteen</td><td class="p-4 text-slate-500 italic">nayntiin</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">20</td><td class="p-4 text-slate-700">twenty</td><td class="p-4 text-slate-500 italic">tventi</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 4. BAGAJ ALIMI VE GÜMRÜK -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🧳</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">4. Bagaj Alımı ve Gümrük</h2>
+    </div>
+    <p class="text-slate-600 mb-8 text-lg">Bagaj bandını, kayıp bagajı ve gümrük işlemlerini sorarken kısa ve doğrudan cümleler kurabilirsiniz.</p>
+    <div class="card overflow-hidden mb-8">
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">English</th><th class="p-4 font-bold">Türkçe Anlam</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Where can I collect my baggage?</td><td class="p-4 text-slate-700">Bagajımı nereden alabilirim?</td><td class="p-4 text-slate-500 italic">Wer ken ay kolekt may begic?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Which baggage carousel is it?</td><td class="p-4 text-slate-700">Hangi bagaj bandı?</td><td class="p-4 text-slate-500 italic">Vi begic kerisell iz it?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">My luggage is missing.</td><td class="p-4 text-slate-700">Bagajım kayıp.</td><td class="p-4 text-slate-500 italic">May lagic iz missing.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">My suitcase was damaged.</td><td class="p-4 text-slate-700">Valizim hasar gördü.</td><td class="p-4 text-slate-500 italic">May suutkeys voz demic.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Where is customs?</td><td class="p-4 text-slate-700">Gümrük nerede?</td><td class="p-4 text-slate-500 italic">Wer iz kastimz?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">I have nothing to declare.</td><td class="p-4 text-slate-700">Beyan edecek bir şeyim yok.</td><td class="p-4 text-slate-500 italic">Ay hev nathing tu dikler.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Do I need to fill out this form?</td><td class="p-4 text-slate-700">Bu formu doldurmam gerekiyor mu?</td><td class="p-4 text-slate-500 italic">Du ay niid tu fil aut dis form?</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 5. ULAŞIM VE TOPLU TAŞIMA -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🚌</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">5. Ulaşım ve Toplu Taşıma</h2>
+    </div>
+    <p class="text-slate-600 mb-8 text-lg">Şehir içinde yönünüzü bulmak, bilet almak ve ulaşım ücretini öğrenmek için bu kalıplardan yararlanabilirsiniz.</p>
+    <div class="card overflow-hidden mb-8">
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">English</th><th class="p-4 font-bold">Türkçe Anlam</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">How can I get to the city centre?</td><td class="p-4 text-slate-700">Şehir merkezine nasıl gidebilirim?</td><td class="p-4 text-slate-500 italic">Hav ken ay get tu di siti sentir?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Where is the bus stop?</td><td class="p-4 text-slate-700">Otobüs durağı nerede?</td><td class="p-4 text-slate-500 italic">Wer iz di bas stap?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Which train goes to the airport?</td><td class="p-4 text-slate-700">Hangi tren havalimanına gidiyor?</td><td class="p-4 text-slate-500 italic">Vi treyn gooz tu di erport?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">How much is a one-way ticket?</td><td class="p-4 text-slate-700">Tek yön bilet ne kadar?</td><td class="p-4 text-slate-500 italic">Hav ma iz i van-vey tiket?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">I'd like a return ticket, please.</td><td class="p-4 text-slate-700">Gidiş-dönüş bilet istiyorum, lütfen.</td><td class="p-4 text-slate-500 italic">Ayd layk i ritorn tiket, pliiz.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Does this bus stop near the museum?</td><td class="p-4 text-slate-700">Bu otobüs müzenin yakınında duruyor mu?</td><td class="p-4 text-slate-500 italic">Daz dis bas stap niir di myuziim?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Please let me know when we arrive.</td><td class="p-4 text-slate-700">Lütfen vardığımızda bana haber verin.</td><td class="p-4 text-slate-500 italic">Pliiz let mi no ven vi irayv.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Can you call a taxi for me?</td><td class="p-4 text-slate-700">Benim için taksi çağırabilir misiniz?</td><td class="p-4 text-slate-500 italic">Ken yu kol i taksi for mi?</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 6. ULAŞIMDA EK KALIPLAR -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🚕</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">6. Ulaşımda Ek Kalıplar</h2>
+    </div>
+    <div class="card overflow-hidden mb-8">
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">English</th><th class="p-4 font-bold">Türkçe Anlam</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Where can I buy a ticket?</td><td class="p-4 text-slate-700">Nereden bilet alabilirim?</td><td class="p-4 text-slate-500 italic">Wer ken ay bay i tiket?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Is there a direct bus?</td><td class="p-4 text-slate-700">Direkt otobüs var mı?</td><td class="p-4 text-slate-500 italic">Iz der i dayrekt bas?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">How long does the journey take?</td><td class="p-4 text-slate-700">Yolculuk ne kadar sürüyor?</td><td class="p-4 text-slate-500 italic">Hav long daz di corni teyk?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Which platform do I need?</td><td class="p-4 text-slate-700">Hangi perona gitmem gerekiyor?</td><td class="p-4 text-slate-500 italic">Vi platform du ay niid?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Is this seat free?</td><td class="p-4 text-slate-700">Bu koltuk boş mu?</td><td class="p-4 text-slate-500 italic">Iz dis siit frii?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Where should I get off?</td><td class="p-4 text-slate-700">Nerede inmeliyim?</td><td class="p-4 text-slate-500 italic">Wer sud ay get of?</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 7. OTEL VE KONAKLAMA -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🏨</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">7. Otel ve Konaklama</h2>
+    </div>
+    <p class="text-slate-600 mb-8 text-lg">Otele giriş yaparken, odanızla ilgili bilgi alırken veya bir sorun bildirirken nazik ve net ifadeler kullanın.</p>
+    <div class="card overflow-hidden mb-8">
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">English</th><th class="p-4 font-bold">Türkçe Anlam</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">I have a reservation under the name of...</td><td class="p-4 text-slate-700">...adına bir rezervasyonum var.</td><td class="p-4 text-slate-500 italic">Ay hev i rezerveysin andir di neym ov...</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">I'd like to check in.</td><td class="p-4 text-slate-700">Giriş yapmak istiyorum.</td><td class="p-4 text-slate-500 italic">Ayd layk tu ek in.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">What time is check-out?</td><td class="p-4 text-slate-700">Çıkış saati kaçta?</td><td class="p-4 text-slate-500 italic">Vat taym iz ek-aut?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Is breakfast included?</td><td class="p-4 text-slate-700">Kahvaltı dahil mi?</td><td class="p-4 text-slate-500 italic">Iz brekfast inkludid?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Could I have the Wi-Fi password?</td><td class="p-4 text-slate-700">Wi-Fi şifresini alabilir miyim?</td><td class="p-4 text-slate-500 italic">Kud ay hev di vay-fay pasvord?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">There is a problem with my room.</td><td class="p-4 text-slate-700">Odamla ilgili bir sorun var.</td><td class="p-4 text-slate-500 italic">Der iz i problem vid may ruum.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">The air conditioning isn't working.</td><td class="p-4 text-slate-700">Klima çalışmıyor.</td><td class="p-4 text-slate-500 italic">Di er kondisining izint vorking.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Could I have a late check-out?</td><td class="p-4 text-slate-700">Geç çıkış yapabilir miyim?</td><td class="p-4 text-slate-500 italic">Kud ay hev i leyt ek-aut?</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 8. KONAKLAMADA EK KALIPLAR -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🛎️</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">8. Konaklamada Ek Kalıplar</h2>
+    </div>
+    <div class="card overflow-hidden mb-8">
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">English</th><th class="p-4 font-bold">Türkçe Anlam</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">What time does breakfast start?</td><td class="p-4 text-slate-700">Kahvaltı saat kaçta başlıyor?</td><td class="p-4 text-slate-500 italic">Vat taym daz brekfast start?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Can I leave my bags here?</td><td class="p-4 text-slate-700">Çantalarımı burada bırakabilir miyim?</td><td class="p-4 text-slate-500 italic">Ken ay liiv may begz hiyir?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Could you store my luggage?</td><td class="p-4 text-slate-700">Bagajımı emanet alabilir misiniz?</td><td class="p-4 text-slate-500 italic">Kud yu stor may lagic?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Can I have a wake-up call?</td><td class="p-4 text-slate-700">Uyandırma servisi alabilir miyim?</td><td class="p-4 text-slate-500 italic">Ken ay hev i veyk-ap kol?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Could you send someone to fix it?</td><td class="p-4 text-slate-700">Onarması için birini gönderebilir misiniz?</td><td class="p-4 text-slate-500 italic">Kud yu send samvan tu fiks it?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Is there a room with a view?</td><td class="p-4 text-slate-700">Manzaralı bir oda var mı?</td><td class="p-4 text-slate-500 italic">Iz der i ruum vid i vyu?</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 9. RESTORAN VE KAFE -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🍽️</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">9. Restoran ve Kafe</h2>
+    </div>
+    <p class="text-slate-600 mb-8 text-lg">Masa istemek, sipariş vermek, alerjinizi belirtmek ve hesabı ödemek için aşağıdaki ifadeleri kullanabilirsiniz.</p>
+    <div class="card overflow-hidden mb-8">
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">English</th><th class="p-4 font-bold">Türkçe Anlam</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">A table for two, please.</td><td class="p-4 text-slate-700">İki kişilik bir masa, lütfen.</td><td class="p-4 text-slate-500 italic">i teybl for tu, pliiz.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Could we see the menu, please?</td><td class="p-4 text-slate-700">Menüyü görebilir miyiz, lütfen?</td><td class="p-4 text-slate-500 italic">Kud vi sii di menyu, pliiz?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">What do you recommend?</td><td class="p-4 text-slate-700">Ne önerirsiniz?</td><td class="p-4 text-slate-500 italic">Vat du yu rekomend?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">I'd like the chicken, please.</td><td class="p-4 text-slate-700">Tavuk istiyorum, lütfen.</td><td class="p-4 text-slate-500 italic">Ayd layk di ikin, pliiz.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Can I have this without onions?</td><td class="p-4 text-slate-700">Bunu soğansız alabilir miyim?</td><td class="p-4 text-slate-500 italic">Ken ay hev dis vidaut anyinz?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">I'm allergic to nuts.</td><td class="p-4 text-slate-700">Kuruyemişe alerjim var.</td><td class="p-4 text-slate-500 italic">Aym alorcik tu nats.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Could I have some water?</td><td class="p-4 text-slate-700">Biraz su alabilir miyim?</td><td class="p-4 text-slate-500 italic">Kud ay hev sam votir?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Could we have the bill, please?</td><td class="p-4 text-slate-700">Hesabı alabilir miyiz, lütfen?</td><td class="p-4 text-slate-500 italic">Kud vi hev di bil, pliiz?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Can I pay by card?</td><td class="p-4 text-slate-700">Kartla ödeyebilir miyim?</td><td class="p-4 text-slate-500 italic">Ken ay pey bay kard?</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 10. RESTORANDA EK KALIPLAR -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🍴</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">10. Restoranda Ek Kalıplar</h2>
+    </div>
+    <div class="card overflow-hidden mb-8">
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">English</th><th class="p-4 font-bold">Türkçe Anlam</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Do you have vegetarian options?</td><td class="p-4 text-slate-700">Vejetaryen seçenekleriniz var mı?</td><td class="p-4 text-slate-500 italic">Du yu hev veciteriyin opsinz?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Is this dish spicy?</td><td class="p-4 text-slate-700">Bu yemek acılı mı?</td><td class="p-4 text-slate-500 italic">Iz dis dis spaysi?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Can I get the dressing on the side?</td><td class="p-4 text-slate-700">Sosu ayrı alabilir miyim?</td><td class="p-4 text-slate-500 italic">Ken ay get di dresing on di sayd?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Could we have separate bills?</td><td class="p-4 text-slate-700">Hesapları ayrı alabilir miyiz?</td><td class="p-4 text-slate-500 italic">Kud vi hev sepiret bilz?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">I need a table outside.</td><td class="p-4 text-slate-700">Dışarıda bir masa istiyorum.</td><td class="p-4 text-slate-500 italic">Ay niid i teybl autsayd.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">The food is delicious.</td><td class="p-4 text-slate-700">Yemek çok lezzetli.</td><td class="p-4 text-slate-500 italic">Di fuud iz dilisis.</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 11. PRATİK ZAMANI -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">✍️</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">11. Pratik Zamanı</h2>
+    </div>
+    <div class="card p-8 mb-8">
+        <p class="text-slate-600 mb-6">Aşağıdaki soruları kendi seyahat planınıza göre tamamlayın. Cevap yazılacak boşlukları doldurarak cümleleri sesli okuyun.</p>
+        <div class="space-y-4 text-lg">
+            <p>My destination is <span class="fill-blank"></span></p>
+            <p>My flight number is <span class="fill-blank"></span></p>
+            <p>I am staying at <span class="fill-blank"></span> hotel.</p>
+            <p>I would like to order <span class="fill-blank"></span></p>
+            <p>The place I want to visit is <span class="fill-blank"></span></p>
+        </div>
+    </div>
+    <div class="card p-8 mb-8">
+        <h3 class="text-2xl font-bold text-blue-900 mb-4">Kısa Uygulama Soruları</h3>
+        <div class="space-y-4 text-lg">
+            <p>1. How can I get to the hotel? <span class="ml-4 font-semibold text-blue-800">Cevabım:</span> <span class="fill-blank"></span></p>
+            <p>2. What time is check-in? <span class="ml-4 font-semibold text-blue-800">Cevabım:</span> <span class="fill-blank"></span></p>
+            <p>3. Could I have the bill, please? <span class="ml-4 font-semibold text-blue-800">Cevabım:</span> <span class="fill-blank"></span></p>
+            <p>4. Do you speak English? <span class="ml-4 font-semibold text-blue-800">Cevabım:</span> <span class="fill-blank"></span></p>
+        </div>
+    </div>
+    <div class="tip-box p-6 rounded-r-2xl mb-8 flex gap-4 shadow-sm">
+        <span class="text-3xl">💡</span>
+        <div>
+            <h4 class="font-bold text-sky-900 text-xl mb-2">Hatırlayın</h4>
+            <p class="text-sky-800">"Could I...?", "Can I...?" ve "I'd like..." kalıpları isteklerinizi nazikçe ifade etmenizi sağlar.</p>
+        </div>
+    </div>
+    <p class="text-slate-500 text-sm">Not: Yukarıdaki 4 sorunun cevap anahtarını bir sonraki sayfada bulabilirsiniz - önce kendiniz cevaplamayı deneyin, sonra kontrol edin.</p>
+
+    <!-- 11B. PRATİK ZAMANI - CEVAP ANAHTARI -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🔑</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">Pratik Zamanı - Cevap Anahtarı</h2>
+    </div>
+    <p class="text-slate-600 mb-8 text-lg">Bir önceki sayfadaki kısa uygulama sorularına örnek cevaplar:</p>
+    <div class="card overflow-hidden mb-8">
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">Soru</th><th class="p-4 font-bold">Örnek Cevap</th><th class="p-4 font-bold">Açıklama</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">How can I get to the hotel?</td><td class="p-4 text-slate-700">You can take a taxi or the airport shuttle.</td><td class="p-4 text-slate-600">Otele nasıl gidebilirim? - Taksi veya havalimanı servisiyle gidebilirsiniz.</td><td class="p-4 text-slate-500 italic">Yu ken teyk i taksi or di erport satil.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">What time is check-in?</td><td class="p-4 text-slate-700">Check-in usually starts at 2 PM.</td><td class="p-4 text-slate-600">Check-in saat kaçta? - Check-in genelde saat 14:00'te başlar.</td><td class="p-4 text-slate-500 italic">Cek-in juuili starts et tu pi-em.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Could I have the bill, please?</td><td class="p-4 text-slate-700">Of course, I'll bring it right away.</td><td class="p-4 text-slate-600">Hesabı alabilir miyim, lütfen? - Tabii, hemen getiriyorum. (garson cevabı)</td><td class="p-4 text-slate-500 italic">Of kors, ayl bring it rayt ivey.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Do you speak English?</td><td class="p-4 text-slate-700">Yes, a little.</td><td class="p-4 text-slate-600">İngilizce konuşuyor musunuz? - Evet, biraz.</td><td class="p-4 text-slate-500 italic">Yes, i litil.</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 12. YOL VE YÖN BULMA -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🗺️</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">12. Yol ve Yön Bulma</h2>
+    </div>
+    <p class="text-slate-600 mb-8 text-lg">Adres sorarken önce "Excuse me" diyerek kibarca dikkat çekebilirsiniz. Karşınızdaki kişiyi anlamadığınızda cümleyi tekrar etmesini isteyin.</p>
+    <div class="card overflow-hidden mb-8">
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">English</th><th class="p-4 font-bold">Türkçe Anlam</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Excuse me, how do I get to the station?</td><td class="p-4 text-slate-700">Affedersiniz, istasyona nasıl giderim?</td><td class="p-4 text-slate-500 italic">Ekskyuz mi, hav du ay get tu di steysin?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Is it far from here?</td><td class="p-4 text-slate-700">Buradan uzak mı?</td><td class="p-4 text-slate-500 italic">Iz it far from hiyir?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Is it within walking distance?</td><td class="p-4 text-slate-700">Yürüyerek gidilebilir mi?</td><td class="p-4 text-slate-500 italic">Iz it vidin voking distins?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Go straight ahead.</td><td class="p-4 text-slate-700">Dümdüz gidin.</td><td class="p-4 text-slate-500 italic">Go streyt ihed.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Turn left at the corner.</td><td class="p-4 text-slate-700">Köşeden sola dönün.</td><td class="p-4 text-slate-500 italic">Torn left et di kornir.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Turn right after the bank.</td><td class="p-4 text-slate-700">Bankadan sonra sağa dönün.</td><td class="p-4 text-slate-500 italic">Torn rayt after di benk.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Could you show me on the map?</td><td class="p-4 text-slate-700">Haritada gösterebilir misiniz?</td><td class="p-4 text-slate-500 italic">Kud yu sov mi on di mep?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">I think I'm lost.</td><td class="p-4 text-slate-700">Sanırım kayboldum.</td><td class="p-4 text-slate-500 italic">Ay think aym lost.</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 13. YÖN TARİFLERİNDE EK KALIPLAR -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🧭</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">13. Yön Tariflerinde Ek Kalıplar</h2>
+    </div>
+    <div class="card overflow-hidden mb-8">
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">English</th><th class="p-4 font-bold">Türkçe Anlam</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Which way is the old town?</td><td class="p-4 text-slate-700">Eski şehir hangi tarafta?</td><td class="p-4 text-slate-500 italic">Vi vey iz di old taun?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Take the second street on the left.</td><td class="p-4 text-slate-700">Soldaki ikinci sokağa girin.</td><td class="p-4 text-slate-500 italic">Teyk di sekind striit on di left.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">It's next to the pharmacy.</td><td class="p-4 text-slate-700">Eczanenin yanında.</td><td class="p-4 text-slate-500 italic">Its nekst tu di farmasi.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">How long does it take on foot?</td><td class="p-4 text-slate-700">Yürüyerek ne kadar sürer?</td><td class="p-4 text-slate-500 italic">Hav long daz it teyk on fut?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Can I use this map?</td><td class="p-4 text-slate-700">Bu haritayı kullanabilir miyim?</td><td class="p-4 text-slate-500 italic">Ken ay yuz dis mep?</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 14. ACİL DURUMLAR VE SAĞLIK -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-red-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🚨</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">14. Acil Durumlar ve Sağlık</h2>
+    </div>
+    <div class="alert-box p-6 rounded-r-2xl mb-8 flex gap-4 shadow-sm">
+        <span class="text-3xl">⚠️</span>
+        <div>
+            <h4 class="font-bold text-red-900 text-xl mb-2">Önemli Not</h4>
+            <p class="text-red-800">Sağlık veya güvenlik sorunu yaşarsanız kısa, açık ve doğrudan cümleler kurun. Gerekirse "Please speak slowly" diyerek yavaş konuşulmasını isteyin.</p>
+        </div>
+    </div>
+    <div class="card overflow-hidden mb-8 border-red-100">
+        <table class="w-full text-left border-collapse">
+            <thead class="bg-red-700 text-white"><tr><th class="p-4 font-bold">English</th><th class="p-4 font-bold">Türkçe Anlam</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-red-50">
+                <tr class="bg-red-50/30"><td class="p-4 font-semibold text-red-800">Help, please!</td><td class="p-4 text-slate-700">Yardım edin, lütfen!</td><td class="p-4 text-slate-500 italic">Help, pliiz!</td></tr>
+                <tr class="bg-red-50/30"><td class="p-4 font-semibold text-red-800">Call the police, please.</td><td class="p-4 text-slate-700">Lütfen polisi arayın.</td><td class="p-4 text-slate-500 italic">Kol di polis, pliiz.</td></tr>
+                <tr class="bg-red-50/30"><td class="p-4 font-semibold text-red-800">Call an ambulance.</td><td class="p-4 text-slate-700">Ambulans çağırın.</td><td class="p-4 text-slate-500 italic">Kol en embulins.</td></tr>
+                <tr class="bg-red-50/30"><td class="p-4 font-semibold text-red-800">I need a doctor.</td><td class="p-4 text-slate-700">Doktora ihtiyacım var.</td><td class="p-4 text-slate-500 italic">Ay niid i doktor.</td></tr>
+                <tr class="bg-red-50/30"><td class="p-4 font-semibold text-red-800">Where is the nearest hospital?</td><td class="p-4 text-slate-700">En yakın hastane nerede?</td><td class="p-4 text-slate-500 italic">Wer iz di niirist haspitil?</td></tr>
+                <tr class="bg-red-50/30"><td class="p-4 font-semibold text-red-800">I've lost my passport.</td><td class="p-4 text-slate-700">Pasaportumu kaybettim.</td><td class="p-4 text-slate-500 italic">Ayv lost may pasport.</td></tr>
+                <tr class="bg-red-50/30"><td class="p-4 font-semibold text-red-800">My phone has been stolen.</td><td class="p-4 text-slate-700">Telefonum çalındı.</td><td class="p-4 text-slate-500 italic">May foun hez biin stoulin.</td></tr>
+                <tr class="bg-red-50/30"><td class="p-4 font-semibold text-red-800">I'm not feeling well.</td><td class="p-4 text-slate-700">Kendimi iyi hissetmiyorum.</td><td class="p-4 text-slate-500 italic">Aym not fiiling vel.</td></tr>
+                <tr class="bg-red-50/30"><td class="p-4 font-semibold text-red-800">I'm allergic to this medicine.</td><td class="p-4 text-slate-700">Bu ilaca alerjim var.</td><td class="p-4 text-slate-500 italic">Aym alorcik tu dis medisin.</td></tr>
+                <tr class="bg-red-50/30"><td class="p-4 font-semibold text-red-800">Please speak slowly.</td><td class="p-4 text-slate-700">Lütfen yavaş konuşun.</td><td class="p-4 text-slate-500 italic">Pliiz spiik slovli.</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 15. ACİL DURUMLARDA EK KALIPLAR -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-red-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🆘</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">15. Acil Durumlarda Ek Kalıplar</h2>
+    </div>
+    <div class="card overflow-hidden mb-8 border-red-100">
+        <table class="w-full text-left border-collapse">
+            <thead class="bg-red-700 text-white"><tr><th class="p-4 font-bold">English</th><th class="p-4 font-bold">Türkçe Anlam</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-red-50">
+                <tr class="bg-red-50/30"><td class="p-4 font-semibold text-red-800">I have a fever.</td><td class="p-4 text-slate-700">Ateşim var.</td><td class="p-4 text-slate-500 italic">Ay hev i fiivir.</td></tr>
+                <tr class="bg-red-50/30"><td class="p-4 font-semibold text-red-800">I have severe pain here.</td><td class="p-4 text-slate-700">Burada şiddetli ağrım var.</td><td class="p-4 text-slate-500 italic">Ay hev sivir peyn hiyir.</td></tr>
+                <tr class="bg-red-50/30"><td class="p-4 font-semibold text-red-800">I need my medication.</td><td class="p-4 text-slate-700">İlacıma ihtiyacım var.</td><td class="p-4 text-slate-500 italic">Ay niid may medikeysin.</td></tr>
+                <tr class="bg-red-50/30"><td class="p-4 font-semibold text-red-800">Where is the police station?</td><td class="p-4 text-slate-700">Polis karakolu nerede?</td><td class="p-4 text-slate-500 italic">Wer iz di piliis steysin?</td></tr>
+                <tr class="bg-red-50/30"><td class="p-4 font-semibold text-red-800">Please stay with me.</td><td class="p-4 text-slate-700">Lütfen benimle kalın.</td><td class="p-4 text-slate-500 italic">Pliiz stey vid mi.</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 16. ALIŞVERİŞ VE FİYAT SORMA -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🛍️</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">16. Alışveriş ve Fiyat Sorma</h2>
+    </div>
+    <p class="text-slate-600 mb-6 text-lg">Alışveriş sırasında ürünün fiyatını, bedenini ve ödeme seçeneklerini sormak için aşağıdaki kalıpları kullanabilirsiniz.</p>
+    <h3 class="text-2xl font-bold text-blue-900 mb-4">Temel Kelimeler ve Kalıplar</h3>
+    <div class="card overflow-hidden mb-8">
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">English</th><th class="p-4 font-bold">Türkçe Anlam</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">price</td><td class="p-4 text-slate-700">fiyat</td><td class="p-4 text-slate-500 italic">prays</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">size</td><td class="p-4 text-slate-700">beden</td><td class="p-4 text-slate-500 italic">sayz</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">cash</td><td class="p-4 text-slate-700">nakit</td><td class="p-4 text-slate-500 italic">kes</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">card</td><td class="p-4 text-slate-700">kart</td><td class="p-4 text-slate-500 italic">kard</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">receipt</td><td class="p-4 text-slate-700">fiş</td><td class="p-4 text-slate-500 italic">risiit</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">discount</td><td class="p-4 text-slate-700">indirim</td><td class="p-4 text-slate-500 italic">diskaunt</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">fitting room</td><td class="p-4 text-slate-700">deneme kabini</td><td class="p-4 text-slate-500 italic">fiting ruum</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Small</td><td class="p-4 text-slate-700">Küçük beden</td><td class="p-4 text-slate-500 italic">smol</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Medium</td><td class="p-4 text-slate-700">Orta beden</td><td class="p-4 text-slate-500 italic">miidiyim</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Large</td><td class="p-4 text-slate-700">Büyük beden</td><td class="p-4 text-slate-500 italic">larc</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">X-Large</td><td class="p-4 text-slate-700">Çok büyük beden</td><td class="p-4 text-slate-500 italic">eks-larc</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">How much is this?</td><td class="p-4 text-slate-700">Bu ne kadar?</td><td class="p-4 text-slate-500 italic">Hav ma iz dis?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">How much does it cost?</td><td class="p-4 text-slate-700">Fiyatı ne kadar?</td><td class="p-4 text-slate-500 italic">Hav ma daz it kost?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Do you have this in a smaller size?</td><td class="p-4 text-slate-700">Bunun daha küçük bedeni var mı?</td><td class="p-4 text-slate-500 italic">Du yu hev dis in i smolir sayz?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">What size is this?</td><td class="p-4 text-slate-700">Bu kaç beden?</td><td class="p-4 text-slate-500 italic">Vat sayz iz dis?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Do you accept credit cards?</td><td class="p-4 text-slate-700">Kredi kartı kabul ediyor musunuz?</td><td class="p-4 text-slate-500 italic">Du yu eksept kredit kards?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Can I pay in cash?</td><td class="p-4 text-slate-700">Nakit ödeyebilir miyim?</td><td class="p-4 text-slate-500 italic">Ken ay pey in kes?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Could I have a receipt, please?</td><td class="p-4 text-slate-700">Fiş alabilir miyim, lütfen?</td><td class="p-4 text-slate-500 italic">Kud ay hev i risiit, pliiz?</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="tip-box p-6 rounded-r-2xl mb-8 flex gap-4 shadow-sm">
+        <span class="text-3xl">💡</span>
+        <div>
+            <h4 class="font-bold text-sky-900 text-xl mb-2">Alışveriş İpucu</h4>
+            <p class="text-sky-800">Bir ürün denemek istediğinizde "Could I try this on?" diyebilirsiniz. Bu cümle "Bunu deneyebilir miyim?" anlamına gelir ve okunuşu "Kud ay tray dis on?" şeklindedir.</p>
+        </div>
+    </div>
+
+    <!-- 17. AKTİF PRATİK VE HATIRLAMA EGZERSİZİ -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🧠</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">17. Aktif Pratik ve Hatırlama Egzersizi</h2>
+    </div>
+    <p class="text-slate-600 mb-8 text-lg">İngilizce cümleleri önce kendiniz kurun. Ardından cevaplarınızı İpucu Sayfası'ndaki kalıplarla karşılaştırıp yüksek sesle tekrar edin.</p>
+    
+    <div class="space-y-6 mb-8">
+        <div class="card p-6">
+            <h4 class="font-bold text-blue-900 text-lg mb-2">Senaryo 1 - Havalimanında kapıyı bulma</h4>
+            <p class="text-slate-600 mb-3">Uçağınızın kapı numarasını ve biniş zamanını sormak için İngilizce bir cümle kurun.</p>
+            <p class="font-semibold text-blue-800">Cevabım: <span class="fill-blank"></span></p>
+        </div>
+        <div class="card p-6">
+            <h4 class="font-bold text-blue-900 text-lg mb-2">Senaryo 2 - Bagajın gelmemesi</h4>
+            <p class="text-slate-600 mb-3">Bagajınızın kayıp olduğunu görevliye anlatın ve yardım isteyin.</p>
+            <p class="font-semibold text-blue-800">Cevabım: <span class="fill-blank"></span></p>
+        </div>
+        <div class="card p-6">
+            <h4 class="font-bold text-blue-900 text-lg mb-2">Senaryo 3 - Otelde sorun bildirme</h4>
+            <p class="text-slate-600 mb-3">Odanızdaki klimanın çalışmadığını resepsiyona söyleyin.</p>
+            <p class="font-semibold text-blue-800">Cevabım: <span class="fill-blank"></span></p>
+        </div>
+        <div class="card p-6">
+            <h4 class="font-bold text-blue-900 text-lg mb-2">Senaryo 4 - Restoranda sipariş verme</h4>
+            <p class="text-slate-600 mb-3">Soğansız bir yemek ve biraz su istediğinizi belirtin.</p>
+            <p class="font-semibold text-blue-800">Cevabım: <span class="fill-blank"></span></p>
+        </div>
+        <div class="card p-6">
+            <h4 class="font-bold text-blue-900 text-lg mb-2">Senaryo 5 - Yol sorma</h4>
+            <p class="text-slate-600 mb-3">İstasyona nasıl gideceğinizi sorun ve haritada göstermelerini isteyin.</p>
+            <p class="font-semibold text-blue-800">Cevabım: <span class="fill-blank"></span></p>
+        </div>
+    </div>
+
+    <div class="card overflow-hidden mb-8">
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">Senaryo</th><th class="p-4 font-bold">English</th><th class="p-4 font-bold">Türkçe Anlam</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 font-semibold">1</td><td class="p-4 text-blue-800 font-semibold">What is my gate number?</td><td class="p-4 text-slate-700">Kapı numaram nedir?</td><td class="p-4 text-slate-500 italic">Vat iz may geyt nambir?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">1</td><td class="p-4 text-blue-800 font-semibold">When does boarding begin?</td><td class="p-4 text-slate-700">Biniş ne zaman başlıyor?</td><td class="p-4 text-slate-500 italic">Ven daz boarding begin?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">2</td><td class="p-4 text-blue-800 font-semibold">My luggage is missing.</td><td class="p-4 text-slate-700">Bagajım kayıp.</td><td class="p-4 text-slate-500 italic">May lagic iz missing.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">2</td><td class="p-4 text-blue-800 font-semibold">Could you help me?</td><td class="p-4 text-slate-700">Bana yardım edebilir misiniz?</td><td class="p-4 text-slate-500 italic">Kud yu help mi?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">3</td><td class="p-4 text-blue-800 font-semibold">The air conditioning isn't working.</td><td class="p-4 text-slate-700">Klima çalışmıyor.</td><td class="p-4 text-slate-500 italic">Di er kondisining izint vorking.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">4</td><td class="p-4 text-blue-800 font-semibold">Can I have this without onions?</td><td class="p-4 text-slate-700">Bunu soğansız alabilir miyim?</td><td class="p-4 text-slate-500 italic">Ken ay hev dis vidaut anyinz?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">4</td><td class="p-4 text-blue-800 font-semibold">Could I have some water?</td><td class="p-4 text-slate-700">Biraz su alabilir miyim?</td><td class="p-4 text-slate-500 italic">Kud ay hev sam votir?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">5</td><td class="p-4 text-blue-800 font-semibold">How do I get to the station?</td><td class="p-4 text-slate-700">İstasyona nasıl giderim?</td><td class="p-4 text-slate-500 italic">Hav du ay get tu di steysin?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">5</td><td class="p-4 text-blue-800 font-semibold">Could you show me on the map?</td><td class="p-4 text-slate-700">Haritada gösterebilir misiniz?</td><td class="p-4 text-slate-500 italic">Kud yu sov mi on di mep?</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 18. YENİ SENARYOLAR VE İPUCU SAYFALARI -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🎯</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">18. Yeni Senaryolar ve İpucu Sayfaları</h2>
+    </div>
+    <p class="text-slate-600 mb-8 text-lg">Bu bölümdeki durumlarda önce kendi cümlenizi yazın, sonra İpucu Sayfası'ndaki ifadelerle kontrol edin.</p>
+    
+    <div class="space-y-6 mb-8">
+        <div class="card p-6">
+            <h4 class="font-bold text-blue-900 text-lg mb-2">Senaryo 1 - Bilet satın alma</h4>
+            <p class="text-slate-600 mb-3">Doğrudan giden bir otobüs için biletin nereden alınacağını ve yolculuğun ne kadar süreceğini sorun.</p>
+            <p class="font-semibold text-blue-800">Cevabım: <span class="fill-blank"></span></p>
+        </div>
+        <div class="card p-6">
+            <h4 class="font-bold text-blue-900 text-lg mb-2">Senaryo 2 - Otelde ek yardım isteme</h4>
+            <p class="text-slate-600 mb-3">Bagajınızı resepsiyonda bırakmak ve sabah için uyandırma servisi istemek üzere iki cümle kurun.</p>
+            <p class="font-semibold text-blue-800">Cevabım: <span class="fill-blank"></span></p>
+        </div>
+        <div class="card p-6">
+            <h4 class="font-bold text-blue-900 text-lg mb-2">Senaryo 3 - Restoranda özel istek</h4>
+            <p class="text-slate-600 mb-3">Vejetaryen seçenekleri sorun ve yemeğin acılı olup olmadığını öğrenin.</p>
+            <p class="font-semibold text-blue-800">Cevabım: <span class="fill-blank"></span></p>
+        </div>
+        <div class="card p-6">
+            <h4 class="font-bold text-blue-900 text-lg mb-2">Senaryo 4 - Alışverişte beden sorma</h4>
+            <p class="text-slate-600 mb-3">Bir giysinin daha büyük bedenini ve deneme kabininin yerini sorun.</p>
+            <p class="font-semibold text-blue-800">Cevabım: <span class="fill-blank"></span></p>
+        </div>
+        <div class="card p-6">
+            <h4 class="font-bold text-blue-900 text-lg mb-2">Senaryo 5 - Alışverişte ödeme</h4>
+            <p class="text-slate-600 mb-3">Kredi kartı kabul edilip edilmediğini sorun ve fiş isteyin.</p>
+            <p class="font-semibold text-blue-800">Cevabım: <span class="fill-blank"></span></p>
+        </div>
+        <div class="card p-6">
+            <h4 class="font-bold text-blue-900 text-lg mb-2">Senaryo 6 - Sağlık sorunu</h4>
+            <p class="text-slate-600 mb-3">Ateşiniz ve şiddetli bir ağrınız olduğunu söyleyip doktora ihtiyacınız olduğunu belirtin.</p>
+            <p class="font-semibold text-blue-800">Cevabım: <span class="fill-blank"></span></p>
+        </div>
+    </div>
+
+    <div class="card overflow-hidden mb-8">
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">Senaryo</th><th class="p-4 font-bold">English</th><th class="p-4 font-bold">Türkçe Anlam</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 font-semibold">1</td><td class="p-4 text-blue-800 font-semibold">Is there a direct bus?</td><td class="p-4 text-slate-700">Direkt otobüs var mı?</td><td class="p-4 text-slate-500 italic">Iz der i dayrekt bas?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">1</td><td class="p-4 text-blue-800 font-semibold">How long does the journey take?</td><td class="p-4 text-slate-700">Yolculuk ne kadar sürüyor?</td><td class="p-4 text-slate-500 italic">Hav long daz di corni teyk?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">2</td><td class="p-4 text-blue-800 font-semibold">Can I leave my bags here?</td><td class="p-4 text-slate-700">Çantalarımı burada bırakabilir miyim?</td><td class="p-4 text-slate-500 italic">Ken ay liiv may begz hiyir?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">2</td><td class="p-4 text-blue-800 font-semibold">Can I have a wake-up call?</td><td class="p-4 text-slate-700">Uyandırma servisi alabilir miyim?</td><td class="p-4 text-slate-500 italic">Ken ay hev i veyk-ap kol?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">3</td><td class="p-4 text-blue-800 font-semibold">Do you have vegetarian options?</td><td class="p-4 text-slate-700">Vejetaryen seçenekleriniz var mı?</td><td class="p-4 text-slate-500 italic">Du yu hev veciteriyin opsinz?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">3</td><td class="p-4 text-blue-800 font-semibold">Is this dish spicy?</td><td class="p-4 text-slate-700">Bu yemek acılı mı?</td><td class="p-4 text-slate-500 italic">Iz dis dis spaysi?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">4</td><td class="p-4 text-blue-800 font-semibold">Do you have this in a larger size?</td><td class="p-4 text-slate-700">Bunun daha büyük bedeni var mı?</td><td class="p-4 text-slate-500 italic">Du yu hev dis in i larcir sayz?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">4</td><td class="p-4 text-blue-800 font-semibold">Where is the fitting room?</td><td class="p-4 text-slate-700">Deneme kabini nerede?</td><td class="p-4 text-slate-500 italic">Wer iz di fiting ruum?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">5</td><td class="p-4 text-blue-800 font-semibold">Do you accept credit cards?</td><td class="p-4 text-slate-700">Kredi kartı kabul ediyor musunuz?</td><td class="p-4 text-slate-500 italic">Du yu eksept kredit kards?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">5</td><td class="p-4 text-blue-800 font-semibold">Could I have a receipt, please?</td><td class="p-4 text-slate-700">Fiş alabilir miyim, lütfen?</td><td class="p-4 text-slate-500 italic">Kud ay hev i risiit, pliiz?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">6</td><td class="p-4 text-blue-800 font-semibold">I have a fever.</td><td class="p-4 text-slate-700">Ateşim var.</td><td class="p-4 text-slate-500 italic">Ay hev i fiivir.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">6</td><td class="p-4 text-blue-800 font-semibold">I have severe pain here.</td><td class="p-4 text-slate-700">Burada şiddetli ağrım var.</td><td class="p-4 text-slate-500 italic">Ay hev sivir peyn hiyir?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold">6</td><td class="p-4 text-blue-800 font-semibold">I need a doctor.</td><td class="p-4 text-slate-700">Doktora ihtiyacım var.</td><td class="p-4 text-slate-500 italic">Ay niid i doktor.</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="tip-box p-6 rounded-r-2xl mb-8 flex gap-4 shadow-sm">
+        <span class="text-3xl">💡</span>
+        <div>
+            <h4 class="font-bold text-sky-900 text-xl mb-2">Hatırlama Yöntemi</h4>
+            <p class="text-sky-800">Her senaryodaki kalıpları bir kez okuyun, metni kapatıp kendi cümlenizi söyleyin ve son olarak okunuşla sesli tekrar yapın.</p>
+        </div>
+    </div>
+
+    <!-- 19. HIZLI BAŞVURU -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">⚡</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">19. Hızlı Başvuru</h2>
+    </div>
+    <p class="text-slate-600 mb-8 text-lg">Seyahat sırasında en sık ihtiyaç duyacağınız kalıpları kategorilere göre hızlıca bulabilirsiniz.</p>
+    <div class="card overflow-hidden mb-8">
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">Kalıp</th><th class="p-4 font-bold">Türkçe Anlam</th><th class="p-4 font-bold italic">Okunuş</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Excuse me.</td><td class="p-4 text-slate-700">Affedersiniz.</td><td class="p-4 text-slate-500 italic">Ekskyuz mi.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Could you help me?</td><td class="p-4 text-slate-700">Bana yardım edebilir misiniz?</td><td class="p-4 text-slate-500 italic">Kud yu help mi?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Could you repeat that, please?</td><td class="p-4 text-slate-700">Bunu tekrar eder misiniz, lütfen?</td><td class="p-4 text-slate-500 italic">Kud yu ripiit det, pliiz?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">I don't understand.</td><td class="p-4 text-slate-700">Anlamıyorum.</td><td class="p-4 text-slate-500 italic">Ay dont andirstend.</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Do you speak English?</td><td class="p-4 text-slate-700">İngilizce konuşuyor musunuz?</td><td class="p-4 text-slate-500 italic">Du yu spiik Inglis?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">How much is it?</td><td class="p-4 text-slate-700">Ne kadar?</td><td class="p-4 text-slate-500 italic">Hav ma iz it?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Where is the bathroom?</td><td class="p-4 text-slate-700">Tuvalet nerede?</td><td class="p-4 text-slate-500 italic">Wer iz di bathrum?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">I'd like...</td><td class="p-4 text-slate-700">...istiyorum.</td><td class="p-4 text-slate-500 italic">Ayd layk...</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Can I have...?</td><td class="p-4 text-slate-700">...alabilir miyim?</td><td class="p-4 text-slate-500 italic">Ken ay hev...?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Where can I find...?</td><td class="p-4 text-slate-700">... nerede bulabilirim?</td><td class="p-4 text-slate-500 italic">Wer ken ay faynd...?</td></tr>
+                <tr class="table-row"><td class="p-4 font-semibold text-blue-800">Thank you for your help.</td><td class="p-4 text-slate-700">Yardımınız için teşekkür ederim.</td><td class="p-4 text-slate-500 italic">Thenk yu for yor help.</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 20. PRATİK KARTLARI OYUNU -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🎮</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">20. Pratik Kartları Oyunu</h2>
+    </div>
+    
+    <div class="card p-8 mb-8">
+        <h3 class="text-2xl font-bold text-blue-900 mb-4">Neden Bu Kartlar İşe Yarıyor?</h3>
+        <p class="text-slate-600 leading-relaxed">Bu oyun rastgele bir eğlence değil - aktif hatırlama (active recall) prensibiyle çalışıyor. Bilimsel araştırmalar, bir bilgiyi sadece okumanın beyinde kalıcı iz bırakmadığını, ama o bilgiyi hafızadan çekip çıkarmaya çalışmanın (örneğin cevabı görmeden önce kendin kurmaya çalışman) öğrenmeyi kat kat güçlendirdiğini gösteriyor. Kısacası: bu kartlarla oynadığın her tur, beynine "bu bilgiyi unutma" sinyali gönderiyor!</p>
+    </div>
+
+    <div class="card p-8 mb-8">
+        <h3 class="text-2xl font-bold text-blue-900 mb-4">Hazırlık</h3>
+        <p class="text-slate-600">Aşağıdaki kartları kesin, karıştırın ve ortaya yığın halinde koyun. 2 kişi veya daha fazla oyuncuyla oynanabilir.</p>
+    </div>
+
+    <div class="card p-8 mb-8">
+        <h3 class="text-2xl font-bold text-blue-900 mb-4">Oynanış</h3>
+        <ol class="list-decimal list-inside space-y-3 text-slate-600">
+            <li>Sırayla bir oyuncu kart çeker ve durumu yüksek sesle okur.</li>
+            <li>Karttaki cevabı görmeden, doğru İngilizce cümleyi kurmaya çalışır.</li>
+            <li>Süre sınırı isterseniz: 15 saniye içinde cevap vermeli (telefonunuzun kronometresini kullanabilirsiniz).</li>
+        </ol>
+    </div>
+
+    <div class="card p-8 mb-8">
+        <h3 class="text-2xl font-bold text-blue-900 mb-4">Puanlama</h3>
+        <table class="w-full text-left border-collapse">
+            <thead class="table-header"><tr><th class="p-4 font-bold">Durum</th><th class="p-4 font-bold">Puan</th></tr></thead>
+            <tbody class="divide-y divide-blue-50">
+                <tr class="table-row"><td class="p-4 text-slate-700">İpucuna hiç bakmadan doğru cevap</td><td class="p-4 font-bold text-blue-800">3 puan</td></tr>
+                <tr class="table-row"><td class="p-4 text-slate-700">Küçük bir hata var ama anlam doğru (örn. "please" unutmuş)</td><td class="p-4 font-bold text-blue-800">2 puan</td></tr>
+                <tr class="table-row"><td class="p-4 text-slate-700">Hiç bilemedi</td><td class="p-4 font-bold text-blue-800">0 puan</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="card p-8 mb-8">
+        <h3 class="text-2xl font-bold text-blue-900 mb-4">Kazanan</h3>
+        <p class="text-slate-600">Tüm kartlar bitince en çok puanı toplayan oyuncu "Seyahat İngilizcesi Şampiyonu" ilan edilir!</p>
+    </div>
+
+    <div class="tip-box p-6 rounded-r-2xl mb-8 flex gap-4 shadow-sm">
+        <span class="text-3xl">💡</span>
+        <div>
+            <h4 class="font-bold text-sky-900 text-xl mb-2">İpucu</h4>
+            <p class="text-sky-800">Aile içinde oynuyorsanız, kazanana küçük bir ödül belirlemek (örneğin "bulaşık yıkamaktan muaf" gibi eğlenceli bir şey) oyunu daha keyifli hale getirir.</p>
+        </div>
+    </div>
+
+    <!-- 21. PRATİK KARTLARI -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">🃏</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">21. Pratik Kartları</h2>
+    </div>
+    <p class="text-slate-600 mb-8 text-lg">Aşağıdaki 39 kartı kesip bir önceki sayfadaki kurallara göre oynayın. Üst kısım soru, alt kısım cevap ve okunuşudur.</p>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Kart 1 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">HAVALİMANI</div>
+            <p class="font-semibold text-slate-800 mb-2">1. Check-in kontuarının nerede olduğunu soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Where is the check-in counter?</p>
+                <p class="text-slate-500 italic text-sm">Wer iz di ek-in kaunter?</p>
+            </div>
+        </div>
+        <!-- Kart 2 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">UÇAK İÇİ</div>
+            <p class="font-semibold text-slate-800 mb-2">2. Kabin memurundan biraz su istiyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Could I have some water, please?</p>
+                <p class="text-slate-500 italic text-sm">Kud ay hev sam votir, pliiz?</p>
+            </div>
+        </div>
+        <!-- Kart 3 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">UÇAK İÇİ</div>
+            <p class="font-semibold text-slate-800 mb-2">3. Üşüdün, kabin memurundan battaniye istiyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Could I have a blanket, please?</p>
+                <p class="text-slate-500 italic text-sm">Kud ay hev i blankit, pliiz?</p>
+            </div>
+        </div>
+        <!-- Kart 4 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">HAVALİMANI</div>
+            <p class="font-semibold text-slate-800 mb-2">4. Check-in kontuarında pasaportunu uzatıyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Here is my passport.</p>
+                <p class="text-slate-500 italic text-sm">Hiyir iz may pasport.</p>
+            </div>
+        </div>
+        <!-- Kart 5 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">UÇAK SONRASI</div>
+            <p class="font-semibold text-slate-800 mb-2">5. Tuvaletin nerede olduğunu soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Where is the bathroom?</p>
+                <p class="text-slate-500 italic text-sm">Wer iz di bathrum?</p>
+            </div>
+        </div>
+        <!-- Kart 6 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">BAGAJ</div>
+            <p class="font-semibold text-slate-800 mb-2">6. Bagaj alım alanının nerede olduğunu soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Where is the baggage claim?</p>
+                <p class="text-slate-500 italic text-sm">Wer iz di begic kleym?</p>
+            </div>
+        </div>
+        <!-- Kart 7 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">ULAŞIM</div>
+            <p class="font-semibold text-slate-800 mb-2">7. Taksi durağının nerede olduğunu soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Where is the taxi stand?</p>
+                <p class="text-slate-500 italic text-sm">Wer iz di taksi stand?</p>
+            </div>
+        </div>
+        <!-- Kart 8 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">ULAŞIM</div>
+            <p class="font-semibold text-slate-800 mb-2">8. Metro biletini nereden alabileceğini soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Where can I buy a metro ticket?</p>
+                <p class="text-slate-500 italic text-sm">Wer ken ay bay i metro tiket?</p>
+            </div>
+        </div>
+        <!-- Kart 9 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">TAKSİ</div>
+            <p class="font-semibold text-slate-800 mb-2">9. Taksiciye adresi gösterip seni oraya götürmesini istiyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Please take me to this address.</p>
+                <p class="text-slate-500 italic text-sm">Pliiz teyk mi tu dis adres.</p>
+            </div>
+        </div>
+        <!-- Kart 10 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">OTEL</div>
+            <p class="font-semibold text-slate-800 mb-2">10. Resepsiyona rezervasyonunu bildiriyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">I have a reservation under the name of...</p>
+                <p class="text-slate-500 italic text-sm">Ay hev i rezerveysin andir di neym ov...</p>
+            </div>
+        </div>
+        <!-- Kart 11 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">OTEL</div>
+            <p class="font-semibold text-slate-800 mb-2">11. Çift kişilik müsait oda olup olmadığını soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Do you have a double room available?</p>
+                <p class="text-slate-500 italic text-sm">Du yu hev i dabl ruum ikeybilabl?</p>
+            </div>
+        </div>
+        <!-- Kart 12 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">OTEL</div>
+            <p class="font-semibold text-slate-800 mb-2">12. Wi-Fi şifresini soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">What is the Wi-Fi password?</p>
+                <p class="text-slate-500 italic text-sm">Vat iz di vay-fay pasvord?</p>
+            </div>
+        </div>
+        <!-- Kart 13 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">RESTORAN</div>
+            <p class="font-semibold text-slate-800 mb-2">13. İki kişilik masa istiyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">A table for two, please.</p>
+                <p class="text-slate-500 italic text-sm">i teybl for tu, pliiz.</p>
+            </div>
+        </div>
+        <!-- Kart 14 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">RESTORAN</div>
+            <p class="font-semibold text-slate-800 mb-2">14. Menüyi istiyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Can I have the menu, please?</p>
+                <p class="text-slate-500 italic text-sm">Ken ay hev di menyu, pliiz?</p>
+            </div>
+        </div>
+        <!-- Kart 15 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">RESTORAN</div>
+            <p class="font-semibold text-slate-800 mb-2">15. Garson hızlı konuştu, yavaş konuşmasını rica ediyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Could you speak more slowly, please?</p>
+                <p class="text-slate-500 italic text-sm">Kud yu spiik mor slovli, pliiz?</p>
+            </div>
+        </div>
+        <!-- Kart 16 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">RESTORAN</div>
+            <p class="font-semibold text-slate-800 mb-2">16. Hesabı istiyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Can I have the bill, please?</p>
+                <p class="text-slate-500 italic text-sm">Ken ay hev di bil, pliiz?</p>
+            </div>
+        </div>
+        <!-- Kart 17 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">ULAŞIM</div>
+            <p class="font-semibold text-slate-800 mb-2">17. Bu trenin Londra'ya gidip gitmediğini soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Does this train go to London?</p>
+                <p class="text-slate-500 italic text-sm">Daz dis treyn go tu Landin?</p>
+            </div>
+        </div>
+        <!-- Kart 18 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">ULAŞIM</div>
+            <p class="font-semibold text-slate-800 mb-2">18. Bu otobüsün şehir merkezine gidip gitmediğini soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Does this bus go to the city centre?</p>
+                <p class="text-slate-500 italic text-sm">Daz dis bas go tu di siti sentir?</p>
+            </div>
+        </div>
+        <!-- Kart 19 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">ULAŞIM</div>
+            <p class="font-semibold text-slate-800 mb-2">19. Koltuğun boş olup olmadığını soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Is this seat available?</p>
+                <p class="text-slate-500 italic text-sm">Iz dis siit ikeybilabl?</p>
+            </div>
+        </div>
+        <!-- Kart 20 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">ULAŞIM</div>
+            <p class="font-semibold text-slate-800 mb-2">20. Müzeye bilet fiyatını soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">How much is a ticket to the museum?</p>
+                <p class="text-slate-500 italic text-sm">Hav ma iz i tiket tu di myuziim?</p>
+            </div>
+        </div>
+        <!-- Kart 21 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">ULAŞIM</div>
+            <p class="font-semibold text-slate-800 mb-2">21. Şoförden, merkez istasyona vardığınızda haber vermesini rica ediyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Could you let me know when we arrive at the central station?</p>
+                <p class="text-slate-500 italic text-sm">Kud yu let mi no ven vi irayv et di sentral steysin?</p>
+            </div>
+        </div>
+        <!-- Kart 22 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">YOL BULMA</div>
+            <p class="font-semibold text-slate-800 mb-2">22. Kayboldun, birine adresi bulmak için yardım istiyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Excuse me, I'm lost. Can you help me find this address?</p>
+                <p class="text-slate-500 italic text-sm">Ekskyuz mi, aym lost. Ken yu help mi faynd dis adres?</p>
+            </div>
+        </div>
+        <!-- Kart 23 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">YOL BULMA</div>
+            <p class="font-semibold text-slate-800 mb-2">23. Birinden haritada göstermesini rica ediyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Could you show me on the map, please?</p>
+                <p class="text-slate-500 italic text-sm">Kud yu sov mi on di mep, pliiz?</p>
+            </div>
+        </div>
+        <!-- Kart 24 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-red-500 uppercase tracking-wider mb-2">ACİL DURUM</div>
+            <p class="font-semibold text-slate-800 mb-2">24. Bir doktora ihtiyacın olduğunu söyleyip yardım istiyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-red-800">Help, please. I need a doctor.</p>
+                <p class="text-slate-500 italic text-sm">Help, pliiz. Ay niid i doktor.</p>
+            </div>
+        </div>
+        <!-- Kart 25 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-red-500 uppercase tracking-wider mb-2">ACİL DURUM</div>
+            <p class="font-semibold text-slate-800 mb-2">25. En yakın eczanenin nerede olduğunu soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-red-800">Where is the nearest pharmacy?</p>
+                <p class="text-slate-500 italic text-sm">Wer iz di niirist farmasi?</p>
+            </div>
+        </div>
+        <!-- Kart 26 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-red-500 uppercase tracking-wider mb-2">ACİL DURUM</div>
+            <p class="font-semibold text-slate-800 mb-2">26. Başında ağrı olduğunu söylüyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-red-800">I have a pain in my head.</p>
+                <p class="text-slate-500 italic text-sm">Ay hev i peyn in may hed.</p>
+            </div>
+        </div>
+        <!-- Kart 27 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-red-500 uppercase tracking-wider mb-2">ACİL DURUM</div>
+            <p class="font-semibold text-slate-800 mb-2">27. Eczaneden baş ağrısı için bir şey olup olmadığını soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-red-800">Do you have something for a headache?</p>
+                <p class="text-slate-500 italic text-sm">Du yu hev samting for i hedayk?</p>
+            </div>
+        </div>
+        <!-- Kart 28 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-red-500 uppercase tracking-wider mb-2">ACİL DURUM</div>
+            <p class="font-semibold text-slate-800 mb-2">28. Pasaportunun çalındığını bildiriyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-red-800">My passport was stolen.</p>
+                <p class="text-slate-500 italic text-sm">May pasport voz stoulin.</p>
+            </div>
+        </div>
+        <!-- Kart 29 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-red-500 uppercase tracking-wider mb-2">ACİL DURUM</div>
+            <p class="font-semibold text-slate-800 mb-2">29. Yer fıstığına alerjin olduğunu söylüyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-red-800">I am allergic to peanuts.</p>
+                <p class="text-slate-500 italic text-sm">Ay em alorcik tu pinats.</p>
+            </div>
+        </div>
+        <!-- Kart 30 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-red-500 uppercase tracking-wider mb-2">ACİL DURUM</div>
+            <p class="font-semibold text-slate-800 mb-2">30. Polisin aranmasını rica ediyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-red-800">Please call the police.</p>
+                <p class="text-slate-500 italic text-sm">Pliiz kol di polis.</p>
+            </div>
+        </div>
+        <!-- Kart 31 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">HAVALİMANI</div>
+            <p class="font-semibold text-slate-800 mb-2">31. 12 numaralı kapının nerede olduğunu soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Where is gate number 12?</p>
+                <p class="text-slate-500 italic text-sm">Wer iz geyt nambir tvelv?</p>
+            </div>
+        </div>
+        <!-- Kart 32 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">OTEL</div>
+            <p class="font-semibold text-slate-800 mb-2">32. Kahvaltının fiyata dahil olup olmadığını soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Is breakfast included?</p>
+                <p class="text-slate-500 italic text-sm">Iz brekfast inkludid?</p>
+            </div>
+        </div>
+        <!-- Kart 33 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">OTEL</div>
+            <p class="font-semibold text-slate-800 mb-2">33. Kahvaltının saat kaçta olduğunu soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">What time is breakfast?</p>
+                <p class="text-slate-500 italic text-sm">Vat taym iz brekfast?</p>
+            </div>
+        </div>
+        <!-- Kart 34 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">ULAŞIM</div>
+            <p class="font-semibold text-slate-800 mb-2">34. Şoföre, burasının Grand Otel durağı olup olmadığını soruyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Is this stop the Grand Hotel?</p>
+                <p class="text-slate-500 italic text-sm">Iz dis stap di Grand Hotel?</p>
+            </div>
+        </div>
+        <!-- Kart 35 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">BAGAJ</div>
+            <p class="font-semibold text-slate-800 mb-2">35. Birinden valizini taşımasında yardım istiyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Can you help me with my luggage, please?</p>
+                <p class="text-slate-500 italic text-sm">Ken yu help mi vid may lagic, pliiz?</p>
+            </div>
+        </div>
+        <!-- Kart 36 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">TOPLU TAŞIMA</div>
+            <p class="font-semibold text-slate-800 mb-2">36. Kalabalıkta geçmek için izin istiyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Excuse me, can I get through?</p>
+                <p class="text-slate-500 italic text-sm">Ekskyuz mi, ken ay get thru?</p>
+            </div>
+        </div>
+        <!-- Kart 37 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">YOL TARİFİ</div>
+            <p class="font-semibold text-slate-800 mb-2">37. Birine sola dönmesini söylüyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Turn left.</p>
+                <p class="text-slate-500 italic text-sm">Torn left.</p>
+            </div>
+        </div>
+        <!-- Kart 38 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">YOL TARİFİ</div>
+            <p class="font-semibold text-slate-800 mb-2">38. Birine düz gitmesini söylüyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">Go straight ahead.</p>
+                <p class="text-slate-500 italic text-sm">Go streyt ihed.</p>
+            </div>
+        </div>
+        <!-- Kart 39 -->
+        <div class="practice-card">
+            <div class="text-xs font-bold text-blue-500 uppercase tracking-wider mb-2">YOL TARİFİ</div>
+            <p class="font-semibold text-slate-800 mb-2">39. Aradığı yerin sağında kaldığını söylüyorsun.</p>
+            <div class="practice-card-back">
+                <p class="font-bold text-blue-800">It's on your right.</p>
+                <p class="text-slate-500 italic text-sm">Its on yor rayt.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 22. SEYAHAT ÖNCESİ MİNİ KONTROL LİSTESİ -->
+    <div class="page-break"></div>
+    <div class="flex items-center gap-4 mb-8">
+        <div class="bg-blue-600 p-4 rounded-2xl shadow-lg text-white text-3xl">✅</div>
+        <h2 class="text-4xl font-extrabold text-slate-800">22. Seyahat Öncesi Mini Kontrol Listesi</h2>
+    </div>
+    <div class="card p-8 mb-8">
+        <div class="checkbox-item"><div class="checkbox-box"></div><span class="text-slate-700 text-lg">Pasaport ve seyahat belgelerimi kontrol ettim.</span></div>
+        <div class="checkbox-item"><div class="checkbox-box"></div><span class="text-slate-700 text-lg">Uçuş numaramı ve kapı bilgilerimi not ettim.</span></div>
+        <div class="checkbox-item"><div class="checkbox-box"></div><span class="text-slate-700 text-lg">Otel adresini ve rezervasyon adını kaydettim.</span></div>
+        <div class="checkbox-item"><div class="checkbox-box"></div><span class="text-slate-700 text-lg">Acil durumda kullanacağım cümleleri tekrar ettim.</span></div>
+        <div class="checkbox-item"><div class="checkbox-box"></div><span class="text-slate-700 text-lg">Telefonumda çevrim dışı harita ve çeviri uygulaması hazırladım.</span></div>
+    </div>
+    <div class="tip-box p-6 rounded-r-2xl mb-8 flex gap-4 shadow-sm">
+        <span class="text-3xl">💡</span>
+        <div>
+            <h4 class="font-bold text-sky-900 text-xl mb-2">Son İpucu</h4>
+            <p class="text-sky-800">Kusursuz konuşmanız gerekmez. Yavaş, kısa ve anlaşılır cümleler kurun; gerektiğinde jestlerden, haritadan veya yazarak anlatmaktan yararlanın.</p>
+        </div>
+    </div>
+
+    <!-- KAPANIŞ -->
+    <div class="page-break"></div>
+    <div class="min-h-[60vh] flex flex-col justify-center items-center text-center bg-gradient-to-br from-sky-100 to-blue-200 text-blue-900 rounded-3xl shadow-inner p-12">
+        <div class="text-6xl mb-4">🌟</div>
+        <h2 class="text-4xl font-bold mb-2">Teşekkürler!</h2>
+        <p class="text-blue-700 text-lg max-w-md mb-6">Bu rehberi hazırlarken elimizden gelen özeni gösterdik; seyahatlerinizde işinize yaramasını dileriz.</p>
+        <h3 class="text-2xl font-bold text-blue-800 mb-8">İyi Yolculuklar!</h3>
+        <div class="mt-8 text-sm text-blue-500 font-semibold tracking-widest uppercase">KREATİF SEYAHAT İNGİLİZCESİ REHBERİ</div>
+    </div>
+
+</body>
+</html>
